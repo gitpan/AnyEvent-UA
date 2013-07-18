@@ -1,0 +1,26 @@
+NAME
+    AnyEvent::UA - HTTP/1.1 UserAgent using AnyEvent
+
+SYNOPSIS
+        Full docs to be done, so just an example.
+
+        my $ua = AnyEvent::UA->new();
+        $ua->req(GET => 'HTTP://www.google.ru:80', cb => sub {
+        my ($body,$headers) = @_;
+        });
+
+DESCRIPTION
+    This module is alpha quality. It was not tested perfectly. Use it on
+    your own risk. Interfaces and implementation may be changed.
+
+AUTHOR
+    Mons Anderson, "<mons at cpan.org>"
+
+ACKNOWLEDGEMENTS
+    Many parts of this module was derived from AnyEvent::HTTP
+
+LICENSE
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
+
